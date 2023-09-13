@@ -1,15 +1,36 @@
-#link-bar {
-	color: black;
-	text-align: justify;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+.link-bar{
+	background-color: black;
+	overflow: hidden;
+}
+
+.link-bar a {
+	color: white;
+	text-align: center;	
+	font-family: "Helvetica Neue", sans-serif;
+	float: center;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 28px;
+	
+}
+
+.link-bar a:hover, .link-bar a:visited {
+	color: tomato
 }
 
 h1 {
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Archivo Black", sans-serif;
 	color: black;
 	text-align: center;
+	font-stretch: condensed;
+	opacity: 0.5;
 }
 
-h2, h3, h4, h5, h6{
+h2, h3, h5, h6{
 	font-family: "Helvetica Neue", sans-serif;
 	color: goldenrod;
 	text-align: center;
