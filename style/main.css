@@ -44,13 +44,8 @@
   	margin-right: auto;
 	padding: 20px;
 	border-radius: 15px;
-	width: 300px;
-	height: 300px;
-}
-
-.albShow img:hover {
-	width: 325px;
-	height: 325px;
+	width: 275px;
+	height: 275px;
 }
 
 .albShow table {
