@@ -6,7 +6,7 @@ function reply_click(clicked_id)
     albumArt = document.getElementById("album-img")
 
     switch (clicked_id) {
-        default:
+        case 'Scratchin-Melodii':
             albumName.innerHTML = "SCRATCHIN' MELODII";
             albumArtist.innerHTML = "LJ Lephemstar";
             albumOverview.innerHTML = "The complete OST to a game demo of the same name. Full of pure funky vibes that'll be sure to bring some nostagia. Very much inspired by games like Parappa the Rapper and Um Jammer Lammy.";
