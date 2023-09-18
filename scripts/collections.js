@@ -28,21 +28,21 @@ function reply_click(clicked_id)
             break;
         
         case 'Metamorphose':
-            albumName.innerHTML = "Metamorphose";
+            albumName.innerHTML = "METAMORPHOSE";
             albumArtist.innerHTML = "bye2";
             albumOverview.innerHTML = "An experimental take on drum and bass with more etherial sounds in most of its tracks. Consits of 4 \"Injections\" that serve as breaks throughout the album.";
             albumArt.src = "https://f4.bcbits.com/img/a2793754674_16.jpg";
             break;
             
         case 'Gate-Watchers':
-            albumName.innerHTML = "Gate Watchers";
+            albumName.innerHTML = "GATE WATCHERS";
             albumArtist.innerHTML = "CubeNatural";
             albumOverview.innerHTML = "A very loud and proud kind of album. Very harsh sounds, but not too harsh to become cacophonous. A perfect blend of samples and calmingly loud sounds makes this album excellent to listen to.";
             albumArt.src = "https://f4.bcbits.com/img/a1671613716_16.jpg";
             break;
     
         case 'Dave-and-Bambi':
-            albumName.innerHTML = "Dave & Bambi";
+            albumName.innerHTML = "DAVE & BAMBI";
             albumArtist.innerHTML = "MoldyGH";
             albumOverview.innerHTML = "The full OST to a mod for a rhythm game. Consisting of a huge selection of songs with many different characters and plenty of styles incorporated.";
             albumArt.src = "https://assets.bigcartel.com/product_images/357831493/dnbMockup.png?auto=format&fit=max&w=1000";
@@ -65,23 +65,8 @@ function reply_click(clicked_id)
         case 'RUBATO':
             albumName.innerHTML = "RUBATO";
             albumArtist.innerHTML = "dconn";
-            albumOverview.innerHTML = "Inspired by DS games of the mid 2000s, RUBATO is an OST for a demo of the same name. Incorporating drum and bass-ish styles into its music, as well as fantastic chiptune tracks.";
+            albumOverview.innerHTML = "Inspired by DS games of the mid 2000s, RUBATO is an OST for the game demo of the same name. Incorporating drum and bass-ish styles into its music, as well as fantastic chiptune tracks.";
             albumArt.src = "https://f4.bcbits.com/img/a1828652412_16.jpg";
-            break;
-
-        // for the 'listening next' page, these lines do the exact same thing as the ones above.
-        case 'UUFO':
-            albumName.innerHTML = "U.U.F.O.";
-            albumArtist.innerHTML = "Camellia/Cametek";
-            albumOverview.innerHTML = "A chaotic album consisting of harsh breakbeats and incredibly fast paced rhythms. You're sure to be in for a ride.";
-            albumArt.src = "https://f4.bcbits.com/img/a2760613898_16.jpg";
-            break;
-
-        case 'Blackmagik-Blazing':
-            albumName.innerHTML = "Blackmagik Blazing";
-            albumArtist.innerHTML = "Camellia/Cametek";
-            albumOverview.innerHTML = "A chaotic album consisting of harsh breakbeats and incredibly fast paced rhythms. You're sure to be in for a ride.";
-            albumArt.src = "https://f4.bcbits.com/img/a2312567325_16.jpg";
             break;
     }
 }

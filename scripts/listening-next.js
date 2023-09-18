@@ -52,7 +52,7 @@ function reply_click(clicked_id)
         case 'Call-Me':
             albumName.innerHTML = "CALL ME IF YOU GET LOST: THE ESTATE SALE"
             albumArtist.innerHTML = "Tyler, The Creator"
-            albumOverview.innerHTML = "I'm not a huge Tyler, The Creator fan, but I did really like Earfquake and the one other song that Apple Music recommends me from this album. I am willing to try this album out since EARFQUAKE is so good, and because the album cover goes hard."
+            albumOverview.innerHTML = "I'm not a huge Tyler, The Creator fan, but I did really like Earfquake and the one other song that Apple Music recommends me from this album. I am willing to try this album out since Earfquake is so good, and because the album cover goes hard."
             albumArt.src = "https://media.pitchfork.com/photos/6421b623246be01cbfdde2e2/1:1/w_320,c_limit/tyler.jpeg"
             break;
     }
