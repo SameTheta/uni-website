@@ -2,8 +2,9 @@
 
 <html>
 	<head>
-		<title>This is the newsletter page</title>
+		<title>DiscMaster | Newsletter</title>
 		<link rel="stylesheet" type="text/css" href="style/main.css">
+		<script src="scripts/zipcode.js"></script>
 	<head>
 	
 	<body>
@@ -15,10 +16,25 @@
 				<li><a href="newsletter.html">Newsletter </a></li>
 			</ul>
 		</div>
-		<br />
-		<br />
-		<br />
+		
+		<br>
+		<br>
+		<br>
+		<br>
 
-		<h1>This newsletter page is work in progress. Come back later!</h1>
+		<h1>Want to get notified whenever I update this website? Put your zip code in the text box below!</h1>
+		<div class="privacy">
+			<a href=".privacy-policy.html" style="text-align: center;">Privacy Policy</a>
+		</div>
+
+		<br>
+		<br>
+		
+		<input type="text" id="zipcode" name="zipcode" placeholder="Put Zip Code Here" maxlength="5">
+		<button type="button" onclick="check_number()">Submit</button>
+
+		<br>
+
+		<img id="zipcode-response" src="images/blank.png">
 	</body>
 </html>

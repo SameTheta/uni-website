@@ -1,6 +1,3 @@
-// break line character (for reference)
-// %0D%0A
-
 function reply_click(clicked_id)
 {
     albumName = document.getElementById("album-name")

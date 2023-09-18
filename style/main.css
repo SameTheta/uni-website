@@ -3,7 +3,6 @@
 
 .link-bar{
 	background-color: black;
-	background: cover;
 	overflow: hidden;
 	text-align: center;
 	margin-left: auto;
@@ -11,7 +10,8 @@
 	position: fixed;
   	top: 0;
 	left: 0;
-  	width: 100%
+  	width: 100%;
+	z-index: 1;
 }
 
 .link-bar a {
@@ -55,6 +55,7 @@
 }
 
 .alb-bar img {
+	position: relative;
 	float: left;
 	height: 300px;
 	width: 300px;
@@ -96,17 +97,19 @@
 	font-style: italic;
 }
 
-p {
+.privacy {
 	position: relative;
+	font-family: "Helvetica Neue", "Arsenal", sans-serif;
+	text-align: center;
 }
 
 h1 {
+	position: relative;
 	font-family: "Archivo Black", sans-serif;
 	color: black;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-stretch: extra-expanded;
 	opacity: 0.5;
 }
 
@@ -120,4 +123,24 @@ h2, h3, h5, h6{
 
 body {
 	background-color: whitesmoke;
+	text-align: center;
+}
+
+input {
+	width: 600px;
+	height: 150px;
+	font-size: 24px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 5px;
+}
+
+button {
+	margin: 20px;
+	width: 400px;
+	height: 75px;
+	font-size: 24px;
+	font: "Arsenal", sans-serif;
 }
