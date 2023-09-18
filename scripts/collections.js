@@ -6,7 +6,7 @@ function reply_click(clicked_id)
     albumArt = document.getElementById("album-img")
 
     switch (clicked_id) {
-        default:
+        case 'Scratchin-Melodii':
             albumName.innerHTML = "SCRATCHIN' MELODII";
             albumArtist.innerHTML = "LJ Lephemstar";
             albumOverview.innerHTML = "The complete OST to a game demo of the same name. Full of pure funky vibes that'll be sure to bring some nostagia. Very much inspired by games like Parappa the Rapper and Um Jammer Lammy.";
@@ -67,6 +67,21 @@ function reply_click(clicked_id)
             albumArtist.innerHTML = "dconn";
             albumOverview.innerHTML = "Inspired by DS games of the mid 2000s, RUBATO is an OST for a demo of the same name. Incorporating drum and bass-ish styles into its music, as well as fantastic chiptune tracks.";
             albumArt.src = "https://f4.bcbits.com/img/a1828652412_16.jpg";
+            break;
+
+        // for the 'listening next' page, these lines do the exact same thing as the ones above.
+        case 'UUFO':
+            albumName.innerHTML = "U.U.F.O.";
+            albumArtist.innerHTML = "Camellia/Cametek";
+            albumOverview.innerHTML = "A chaotic album consisting of harsh breakbeats and incredibly fast paced rhythms. You're sure to be in for a ride.";
+            albumArt.src = "https://f4.bcbits.com/img/a2760613898_16.jpg";
+            break;
+
+        case 'Blackmagik-Blazing':
+            albumName.innerHTML = "Blackmagik Blazing";
+            albumArtist.innerHTML = "Camellia/Cametek";
+            albumOverview.innerHTML = "A chaotic album consisting of harsh breakbeats and incredibly fast paced rhythms. You're sure to be in for a ride.";
+            albumArt.src = "https://f4.bcbits.com/img/a2312567325_16.jpg";
             break;
     }
 }
