@@ -2,8 +2,9 @@
 
 <html>
 	<head>
-		<title>This is the newsletter page</title>
+		<title>DiscMaster | Newsletter</title>
 		<link rel="stylesheet" type="text/css" href="style/main.css">
+		<script src="scripts/zipcode.js"></script>
 	<head>
 	
 	<body>
@@ -30,9 +31,10 @@
 		<br>
 		
 		<input type="text" id="zipcode" name="zipcode" placeholder="Put Zip Code Here" maxlength="5">
-		
+		<button type="button" onclick="check_number()">Submit</button>
+
 		<br>
-		
-		<input type="submit">
+
+		<img id="zipcode-response" src="images/blank.png">
 	</body>
 </html>
